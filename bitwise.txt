@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main()
+{
+int a=7,b=3;
+printf(" %d",a&b);
+printf(" %d",a|b);
+printf(" %d",a^b); //We must do this according to the truth table of and , or and xor gate
+ return 0;
+ 
+}
